@@ -51,14 +51,21 @@ const hijo_Precios = addKeyword([
   .addAnswer(["_Si deseas regresar al Inicio escribe:_ *Hola*"]);
 
 const hijoUñasPrecio = addKeyword(["Uñas", "uñas"])
-  .addAnswer(["Loprecios para las uñas son los siguientes:"])
-  .addAnswer(["Manicura con gel *$250*"])
-  .addAnswer(["Gel 21 días *$150*"])
-  .addAnswer(["Uñas acrílicas *$280*"])
-  .addAnswer(["Capping *$250*"])
-  .addAnswer(["Soft Gel *$300*"])
-  .addAnswer(["Pedicura *$350*"])
-  .addAnswer(["Acripie *$250*"])
+  .addAnswer(
+    [
+      "Loprecios para las uñas son los siguientes:\n",
+      " - Manicura con gel *$250*\n",
+      "- Gel 21 días *$150*\n",
+      "- Uñas acrílicas *$280*\n",
+      "- Acripie *$250*\n",
+      "- Capping *$250*\n",
+      "- Pedicura *$350*\n",
+      "- Soft Gel *$300*\n",
+      "Para Agendar escribe Cita",
+    ],
+    [hijo_citas]
+  )
+
   .addAnswer(["Para Agendar escribe *Cita*"], null, null, [hijo_citas]);
 
 const hijoCabelloPrecio = addKeyword(["Cabello", "cabello", "CABELLO"])
