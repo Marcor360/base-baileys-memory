@@ -75,14 +75,14 @@ const hijoUñasPrecio = addKeyword(["Uñas", "uñas"])
 
 const hijoCabelloPrecio = addKeyword(["Cabello", "cabello", "CABELLO"])
   .addAnswer([
-    "Los precios para el servicio del *Cabello* son los siguientes:\n*",
+    "Los precios para el servicio del *Cabello* son los siguientes:\n",
     "- Alisado Keratina&botox *$250*\n",
     "- Alisado Japones *$250*\n",
     "- Lifting *$250*",
   ])
   .addAnswer(
     [
-      "*Recuerda que los precios pueden variar según el largo del cabello, a continuación, te dejo una tabla de precios: *",
+      "*Recuerda que los precios pueden variar según el largo del cabello, a continuación, te dejo una tabla de precios:*",
     ],
     { media: "https://i.imgur.com/AonMIVr.png" }
   )
