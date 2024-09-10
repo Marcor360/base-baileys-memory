@@ -20,9 +20,9 @@ const citasConfirmacion = addKeyword([
     "Tu cita será confirmada en unos instantes, gracias por tu preferencia 😉",
   ])
   .addAnswer([
-    "Recuerda que para proceder con la confirmación de tu cita, tienes que hacer un depósito de $100 MXN a la siguiente cuenta:\n ",
-    { media: "https://i.imgur.com/Ka3JEXm.jpeg" },
+    "Recuerda que para proceder con la confirmación de tu cita, tienes que hacer un depósito de $100 MXN a la siguiente cuenta:",
   ])
+  .addAnswer({ media: "https://i.imgur.com/Ka3JEXm.jpeg" })
   .addAnswer([
     "Recuerda, después de hacer el depósito, mandar tu comprobante. Gracias 😊",
   ]);
