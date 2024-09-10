@@ -33,11 +33,10 @@ const hijo_citas = addKeyword(["Citas", "citas", "Cita", "Cita"])
     "*-Nombre*\n",
     "*-Fecha*\n",
     "*-Telefono*\n",
-    "*Nombre del Servicio*",
+    "*Nombre del Servicio*\n",
+    "Junto con la palabra *Agendar*",
   ])
-  .addAnswer(["*La hora se te asignará*"])
-  .addAnswer(["Después, escribe *Agendar*."], null, null, [citasConfirmacion]);
-
+  .addAnswer(["*La hora se te asignará*"], null, null, [citasConfirmacion]);
 const hijo_Precios = addKeyword([
   "Precios",
   "precios",
@@ -51,7 +50,7 @@ const hijo_Precios = addKeyword([
   })
   .addAnswer(
     [
-      "*Recuerda que los precios pueden variar según el largo del cabello, a continuación, te dejo una tabla de precios: *",
+      "*Recuerda que los precios pueden variar según el largo del cabello, a continuación, te dejo una tabla de precios:*",
     ],
     { media: "https://i.imgur.com/AonMIVr.png" }
   )
