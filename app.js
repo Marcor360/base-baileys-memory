@@ -54,8 +54,13 @@ const hijo_Precios = addKeyword([
     ],
     { media: "https://i.imgur.com/AonMIVr.png" }
   )
-  .addAnswer(["Para agendar, escribe *Cita*"], null, null, [hijo_citas])
-  .addAnswer(["_Si deseas regresar al inicio, escribe :_ *Inicio*"]);
+  .addAnswer(
+    ["Para agendar, escribe *Cita*"],
+    null,
+    null,
+    [hijo_citas],
+    "Si desear regresar al inicio, escribe *Inicio*"
+  );
 
 const hijoUñasPrecio = addKeyword(["Uñas", "uñas"])
   .addAnswer([
