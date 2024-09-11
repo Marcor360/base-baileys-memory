@@ -163,3 +163,4 @@ const main = async () => {
 main();
 //base-baileys-memory
 //Configurado por MR360
+//npm install
